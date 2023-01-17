@@ -48,8 +48,15 @@ body{
 
 }
 
-.article-seccion{
+.article-section{
     border:5px solid blue;
+
+
+}
+
+
+.article-section-desc{
+    display: flex;
 
 }
 
@@ -60,7 +67,8 @@ body{
 
 .other-news{
     border:5px solid yellow;
-
+    display: flex;
+    flex-direction: row;
 }
 
 /*Estilos para el footer*/
