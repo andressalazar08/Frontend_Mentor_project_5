@@ -70,24 +70,87 @@ body{
 
 .article-section-img{
     width: 80%;
+    border: 5px solid black;
+    padding: 1rem;
 }
+
 .article-section-desc{
-    /* display: flex; */
-
+    border: 5px solid brown;
+    display: flex;
+    /* margin: 1rem; */
+    /* padding: 1rem; */
 }
 
-
+.btn{
+    background-color: var(--Soft-red);
+    color: var(--Off-white);
+    border: 0;
+    padding: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
 
 .other-news{
 
     display: flex;
+    /* margin: 1rem; */
 
 }
 
+.other-news-one{
+    padding: 1rem;
+    display: flex;
+}
+
+.other-news-one-desc{
+    margin: 1rem;
+}
+
+
+.other-news-two{
+    padding: 1rem;
+    display: flex;
+}
+
+.other-news-two-desc{
+    margin: 1rem;
+}
+
+.other-news-three{
+    padding: 1rem;
+    display: flex;
+}
+
+.other-news-three-desc{
+    margin: 1rem;
+}
+
+
 .news-seccion{
-    border:5px solid rgb(0, 47, 255);
+    border:5px solid rgb(68, 255, 0);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--Very-dark-blue);
+    color: var(--Off-white);
+
+    padding: 2.5rem;
+}
+
+.news-seccion h1{
+    color: var(--Soft-orange);
+}
+
+
+
+hr{
+    /* height:20px;
+    width: 10px;
+    /* border-width:0; */
+    color:gray;
+    background-color:gray;
+    border: 5px solid white;
+    /* opacity: 0.5; */
 }
 
 /*Estilos para el footer*/
