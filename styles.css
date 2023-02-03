@@ -60,7 +60,7 @@ header {
     align-items: center;
     padding: 1rem;
     position: relative;
-    max-width: 1200px;/*Ojo, jugar con este a lo ancho*/
+    max-width: 1145px;/*Ojo, jugar con este a lo ancho*/
     margin: 0 auto;
 }
 
@@ -117,8 +117,8 @@ nav ul li, nav ul li a{
 .article-section{
     /* border:5px solid blue; */
     display: flex;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
 
 }
 
@@ -174,10 +174,59 @@ nav ul li, nav ul li a{
     display: flex;
     max-width: 31.8rem;
     /* height: 8rem; */
+    /* min-height: 7rem;
+    max-height: 18rem;
+    height: 80rem; */
+
 }
 
 .other-news-one-desc{
     margin: 1rem;
+}
+
+.other-news-one-desc h2{
+    color: var(--Grayish-blue);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.other-news-one-desc h3{
+    color: var(--Very-dark-blue);
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.other-news-one-img{
+
+}
+
+/*  */
+
+.other-news-two-desc h2{
+    color: var(--Grayish-blue);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.other-news-two-desc h3{
+    color: var(--Very-dark-blue);
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.other-news-three-desc h2{
+    color: var(--Grayish-blue);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.other-news-three-desc h3{
+    color: var(--Very-dark-blue);
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 .other-news-one-desc p{
@@ -191,6 +240,8 @@ nav ul li, nav ul li a{
     display: flex;
     max-width: 31.8rem;
 }
+
+
 
 .other-news-two-desc{
     margin: 1rem;
